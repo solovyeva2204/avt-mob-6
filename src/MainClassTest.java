@@ -14,5 +14,13 @@ public class MainClassTest
         Assert.assertTrue("Sorry getLocalNumber returns a value not equal to 14",actual == expected);
     }
 
+     @Test
+    public void testGetClassNumber()
+    {
+        int actual = object.getClassNumber();
+        int expected = 45;
+        Assert.assertTrue("Sorry getClassNumber returns a value less than 45 ",actual > expected);
+    }
+
 
 }
